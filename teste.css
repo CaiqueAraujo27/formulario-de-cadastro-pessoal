@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #380b61;
+    margin-top: 5%
+}
+
+#subtitulo{
+    font-family: sans-serif;
+    color: #380b61; 
+    margin-left: 15%;
+    margin-bottom: 3%;
+}
+
+fieldset{
+    border: 0;
+    margin-left: 10%;
+}
+    
+body{
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    margin-left: 35%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, button{
+    border-radius: 5px;
+}
+
+fieldset.grupo.campo{ 
+    float: left;
+    margin-right: 1em;
+}
+
+fieldset{
+    margin-bottom: 1.5em;
+}
+
+button{
+    font-size: 1.2em;
+    background: #59429D;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-left: 15%;
+}
+
+button:hover{
+    background:#ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#check{
+    display: inline-block;
+}
+
+#nome{
+    width: 55%;
+}
+
+#sobrenome{
+    width: 75%;
+}
+
+#cpf{
+    width: 55%;
+}
+
+#rg{
+    width: 55%;
+}
+
+#endereço{
+    width: 90%;
+}
+
+#numero{
+    width: 20%;
+}
+
+#estado{
+    width: 20%;
+}
+
+#CEP{
+    width: 30%;
+}
+
+#DDD{
+    width: 10%;
+}
+
+#telefonefixo{
+    width: 45%;
+}
+
+#telefonecelular{
+    width: 45%;
+}
+
+#nome:focus, #sobrenome:focus, #cpf:focus, #rg:focus, #endereço:focus, #numero:focus, #bairro:focus, #cidade:focus, #estado:focus, #CEP:focus, #DDD:focus, #telefonefixo:focus, #telefonecelular:focus{
+    background: #e0e0f8;
+}

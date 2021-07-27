@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Desafio cadastro pessoal.css" media="">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Formulário de cadastro pessoal</h1>
+    <h2 id="subtitulo">Complete seus dados</h2>
+
+    <form>
+        <fieldset class="grupo">
+            <div id="check">
+                <label for ="Nome"><strong>Nome*</strong> </label>
+                <input type="text" placeholder="Digite seu nome" id="Nome" required>
+            </div>
+
+            <div id="check">
+                <label for="Sobrenome"><strong>Sobrenome*</strong></label>
+                <input type="text" placeholder="Digite seu sobrenome" id="Sobrenome" required>
+        </fieldset> 
+            </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="CPF"><strong>CPF*</strong></label>
+                <input type="text" placeholder="Digite seu CPF" id="CPF" required>
+            </div>
+
+            <div id="check">
+                <label for="RG">RG</label>
+                <input type="text" placeholder="Digite seu RG">
+        </fieldset>
+            </div>
+
+        <fieldset>    
+            <div class="campo">
+                <label for="sexo">Sexo</label><br>
+                <select id="sexo">
+                    <option selected disabled value="">Selecione</option>
+                    <option>F</option>
+                    <option>M</option>
+                </select>
+        </fieldset>
+            </div>
+    
+        <fieldset class="grupo">    
+            <div id="check">
+                <label for="Endereço"><strong>Endereço*</strong></label>
+                <Input type='text' placeholder="Digite seu endereço" id="endereço" required>
+            </div>
+
+            <div id="check">
+                <label for="Número"><strong>Número*</strong></label>
+                <input type="text" placeholder="Digite o número" id="numero" required>
+            </fieldset>
+            </div>
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="Bairro">Bairro</label>
+                <input type="text" placeholder="Digite seu bairro">
+            </div>
+
+            <div id="check">
+                <label for="Cidade">Cidade</label>
+                <input type="text" placeholder="Digite sua cidade">
+        </fieldset>
+            </div>
+        <fieldset class="grupo">    
+            <div id="check">
+                <label for="Estado">Estado</label>
+                <input type="text" placeholder="Digite seu estado">
+            </div>
+            
+            <div id="check">
+                <Label for="CEP">CEP</Label>
+                <input type="text" placeholder="Digite seu CEP">
+        </fieldset>        
+            </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label for="DDD">*DDD</label>
+                <input type="text" placeholder="00">
+            </div>
+
+            <div id="check">
+                <label for="Telefone Fixo">Telefone Fixo</label>
+                <input type="text" placeholder="00000-0000">
+        </fieldset>
+            </div>
+
+        <fieldset class="grupo">
+            <div class="check">
+                <label for="DDD">*DDD</label>
+                <input type="text" placeholder="00">
+            </div>
+
+            <div id="check">
+                <label for="Telefone Celular"><strong>Telefone Celular*</strong></label>
+                <input type="text" placeholder="00000-0000" id="telefone celular" required>
+        </fieldset>
+            </div>
+        
+            <button class="botao" type="submit">Concluido</button>
+            
+    </form>
+</body>
+</html>
