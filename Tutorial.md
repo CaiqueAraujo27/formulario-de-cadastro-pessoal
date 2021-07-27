@@ -83,3 +83,13 @@ O nome do ficheiro deve ser nomeado `ìndex.html`, que Netlify entenderá.
 O VSCode ja tem git integrado. Clica no icone assim:
 
 ![git](images/git.png)
+
+Descreva as mudancas na mensagem, e clique no icone de:
+
+![commit](images/commit.png)
+
+E clique em:
+
+![atualizar](images/atualizar.png)
+
+Pronto. Netlify atualiza-se. 
