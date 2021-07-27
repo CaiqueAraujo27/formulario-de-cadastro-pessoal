@@ -1,3 +1,5 @@
+# Git
+
 Vamos inicializar o git dentro desta pasta:
 
 ```sh
@@ -45,5 +47,39 @@ Vamos fazer um commit para descrever as mudancas e concluir a acao:
 git commit -am "A inicializar o commit"
 ```
 
-Vamos subir para o repositorio. Como e remoto, vamos ter de realizar com o sufixo de `-u origin master`:
+Vamos subir para o repositorio. Como e remoto, vamos ter de realizar com o sufixo de `-u origin main`:
 
+```sh
+git push -u origin main
+```
+
+Pronto. Mas quando fazemos novos ficheiros, vamos encurtar porque ja fez upstream remoto para o repositorio:
+
+```sh
+git add .
+git commit -am "Descricao das mudancas"
+git push
+```
+
+# Netlify
+
+E simples e rapido. vamos diretamente para o site https://netlify.app/. 
+
+1. clique em "New site from Git"
+2. Selecione "GitHub"
+3. Em "Pick repository", escolhe um dos repositorios
+4. Na etapa final, deixe tudo da mesma forma sem tocar ou mudar, porque seu projeto ja e basico demais
+5. Clique em "Deploy site"
+6. Espere Netlify terminar de atualizar.
+
+Cada mudanca feita no repositorio, Netlify atualiza-se. Nao precisa fazer nada. So espere um pouco. 
+
+## Observacoes
+
+O nome do ficheiro deve ser nomeado `ìndex.html`, que Netlify entenderá. 
+
+## Dicas
+
+O VSCode ja tem git integrado. Clica no icone assim:
+
+![git](images/git.png)
