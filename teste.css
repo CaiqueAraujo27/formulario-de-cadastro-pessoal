@@ -1,8 +1,10 @@
+/* Todos os elementos da página */
 *{
     margin: 0;
     padding: 0;
 }
 
+/* Elementos com o ID "titulo" */
 #titulo{
     font-family: sans-serif;
     color: #380b61;
@@ -10,6 +12,7 @@
     margin-left: -10%;
 }
 
+/* Elementos com o ID "subtitulo" */
 #subtitulo{
     font-family: sans-serif;
     color: #380b61;
@@ -17,7 +20,7 @@
     margin-left: 5%; 
 
 }
-
+/* Elementos de tag <fieldset>*/
 fieldset{
     border: 0;
     margin-left: -3%;

@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="teste.css" media="">
     <title>Document</title>
-    <script type="text/javascript">
-        alert("Seja bem vindo! você será encaminhado para preencher o formulário.")
-        function validar() {
+    <script type="text/javascript"> //Chamada para códigos Javascript
+        alert("Seja bem vindo! você será encaminhado para preencher o formulário.")//janela de boas vindas.
+        function validar() {         //validação de dados
             var nome = formcadastro.nome.value;
             var sobrenome = formcadastro.sobrenome.value;
             var cpf = formcadastro.cpf.value;
@@ -16,7 +16,7 @@
             var numero = formcadastro.numero.value;
             var telefonecelular = formcadastro.telefonecelular.value;
 
-            if(nome == "" ) {
+            if(nome == "" ) {           //usando if caso o campo não esteja preenchido retornar para o campo
                 alert("Preencha o campo nome.");
                 formcadastro.nome.focus();
                 return false;
@@ -59,13 +59,16 @@
     <h1 id="titulo">Formulário de cadastro pessoal</h1>
     <h3 id="subtitulo">Complete seus dados</h3>
 
+    <!-- Início do formulário -->
     <form name="formcadastro" action="" method="POST">
         <fieldset>
+            <!-- Campo do nome com legenda "nome"-->
             <div id="check">
                 <label for ="nome"><strong>Nome*</strong> </label><br>
                 <input type="text" placeholder="Digite seu nome" id="nome" required>
             </div>
 
+            <!-- Campo do sobrenome com legenda "sobrenome"-->
             <div id="check">
                 <label for="sobrenome"><strong>Sobrenome*</strong></label><br>
                 <input type="text" placeholder="Digite seu sobrenome" id="sobrenome" required>
@@ -171,7 +174,8 @@
                 <input type="text" placeholder="00000-0000" id="telefonecelular" required>
             </div>
         </fieldset>    
-        
+
+            <!-- Botão para enviar o formulário-->
             <button type="submit" onclick="return validar()">Concluido</button>           
     
     </form>
