@@ -6,19 +6,21 @@
 #titulo{
     font-family: sans-serif;
     color: #380b61;
-    margin-top: 5%
+    margin-top: 5%;
+    margin-left: -10%;
 }
 
 #subtitulo{
     font-family: sans-serif;
-    color: #380b61; 
-    margin-left: 15%;
-    margin-bottom: 3%;
+    color: #380b61;
+    margin-bottom: 2em;
+    margin-left: 5%; 
+
 }
 
 fieldset{
     border: 0;
-    margin-left: 10%;
+    margin-left: -3%;
 }
     
 body{
@@ -31,7 +33,14 @@ body{
     justify-content: center;
 }
 
-input, button{
+input[type="text"], select{
+    padding: 0.2em;
+    border: 1px solid #4c29b4;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+input, button, select{
     border-radius: 5px;
 }
 
@@ -41,6 +50,7 @@ fieldset.grupo.campo{
 }
 
 fieldset{
+    width: 100%;
     margin-bottom: 1.5em;
 }
 
@@ -53,7 +63,7 @@ button{
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    margin-left: 15%;
+    margin-left: 30%;
 }
 
 button:hover{
@@ -66,50 +76,10 @@ button:hover{
     display: inline-block;
 }
 
-#nome{
-    width: 55%;
+#nome, #sobrenome, #cpf, #rg, #endereço, #numero, #estado, #cidade, #bairro, #cep, #telefonefixo, #telefonecelular{
+    width: 80%
 }
 
-#sobrenome{
-    width: 75%;
-}
-
-#cpf{
-    width: 55%;
-}
-
-#rg{
-    width: 55%;
-}
-
-#endereço{
-    width: 90%;
-}
-
-#numero{
-    width: 20%;
-}
-
-#estado{
-    width: 20%;
-}
-
-#CEP{
-    width: 30%;
-}
-
-#DDD{
-    width: 10%;
-}
-
-#telefonefixo{
-    width: 45%;
-}
-
-#telefonecelular{
-    width: 45%;
-}
-
-#nome:focus, #sobrenome:focus, #cpf:focus, #rg:focus, #endereço:focus, #numero:focus, #bairro:focus, #cidade:focus, #estado:focus, #CEP:focus, #DDD:focus, #telefonefixo:focus, #telefonecelular:focus{
+#nome:focus, #sobrenome:focus, #cpf:focus, #rg:focus, #sexo:focus, #endereço:focus, #numero:focus, #bairro:focus, #cidade:focus, #estado:focus, #cep:focus, #telefonefixo:focus, #telefonecelular:focus{
     background: #e0e0f8;
 }
